@@ -4,11 +4,11 @@ Databases using SQL
 Setup
 -----
 
-1. Install Firefox
-2. Install the SQLite Manager add on **Tools -> Add-ons -> Search -> SQLite
-Manager -> Install -> Restart**
-3. Download the [Portal Database](https://github.com/datacarpentry/datacarpentry/tree/master/lessons/sql/portal_mammals.sqlite)
-4. Open SQLite Manage **Firefox Button -> Web Developer -> SQLite Manager**
+1. Mac OS X and Linux come pre-installed with sqlite3. For Windows, download the [sqlite program](http://files.software-carpentry.org/sqlite3.exe) and put it in the data/portal_mammals directory. 
+
+[ Optional steps 2 & 3 for using the Firefox plugin rather than sqlite from the shell ]
+2. [ Optional ] Install Firefox, then install the SQLite Manager add on **Tools -> Add-ons -> Search -> SQLite Manager -> Install -> Restart**
+3. Open SQLite Manage **Firefox Button -> Web Developer -> SQLite Manager**
 
 
 Relational databases
@@ -171,9 +171,17 @@ which have species codes DM, DO, and DS we could combine the tests using OR:
 Saving & Exporting queries
 --------------------------
 
+** Using the Firefox plugin **
+
 * Exporting:  **Actions** button and choosing **Save Result to File**.
 * Save: **View** drop down and **Create View**
 
+** Using the command line version **
+    
+    .mode csv
+    .output outfile.csv
+    SELECT statement;
+    .output stdout
 
 Building more complex queries
 -----------------------------
