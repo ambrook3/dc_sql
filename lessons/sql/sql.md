@@ -61,7 +61,40 @@ Database Design
        reconnect (foreign key).
 
 
-Import
+Starting SQLite and importing data
+------
+
+Navigate to the ~/sw_ncsu/dc_sql/data directory
+
+**On windows:**
+
+1. Move the sqlite3.exe program into this directory
+2. Double-lick on the sqlite3.exe program, and then type
+
+        .open mammals.sqlite
+
+**On OS X and Linux:**
+
+1. Open sqlite3 and create a new database: 
+
+		sqlite3 mammals.sqlite
+
+Now, you should have a prompt that looks like this: sqlite>
+
+**Importing data**
+
+We change to the csv mode before importing csv data
+
+     .mode csv
+     .import plots.csv plots
+     
+When finished, return to the default (list) mode:
+
+     .mode list
+     
+***EXERCISE: Import the plots and species tables***
+
+Starting and importing with Firefox
 ------
 
 1. Start a New Database **Database -> New Database**
@@ -180,8 +213,9 @@ Saving & Exporting queries
     
     .mode csv
     .output outfile.csv
-    SELECT statement;
+    SELECT your-select-statement-here;
     .output stdout
+    .mode list
 
 Building more complex queries
 -----------------------------
