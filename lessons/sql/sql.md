@@ -6,8 +6,9 @@ Setup
 
 1. Mac OS X and Linux come pre-installed with sqlite3. For Windows, download the [sqlite program](http://files.software-carpentry.org/sqlite3.exe) and put it in the data/portal_mammals directory. 
 
-[ Optional steps 2 & 3 for using the Firefox plugin rather than sqlite from the shell ]
-2. [ Optional ] Install Firefox, then install the SQLite Manager add on **Tools -> Add-ons -> Search -> SQLite Manager -> Install -> Restart**
+\[ Optional steps 2 & 3 for using the Firefox plugin rather than sqlite from the shell \]
+
+2. Install Firefox, then install the SQLite Manager add on **Tools -> Add-ons -> Search -> SQLite Manager -> Install -> Restart**
 3. Open SQLite Manage **Firefox Button -> Web Developer -> SQLite Manager**
 
 
