@@ -1,5 +1,5 @@
-Data Carpentry Core Curriculum
+Data Carpentry SQL Lesson
 =============
 
-This repository contains core material for the 2-day data carpentry workshop. Please see our [contribution guidelines](CONTRIBUTING.md) before contributing updates, bug fixes, or other corrections.
+This repository contains the SQL lesson from Data Carpentry. It was forked from the main datacarpentry/datacarpentry repo, and then pruned of everything but the SQL material. Please see the DC [contribution guidelines](CONTRIBUTING.md) before contributing updates, bug fixes, or other corrections.
  
