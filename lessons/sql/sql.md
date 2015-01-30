@@ -4,7 +4,7 @@ Databases using SQL
 Setup
 -----
 
-1. Mac OS X and Linux come pre-installed with sqlite3. For Windows, download the [sqlite program](http://files.software-carpentry.org/sqlite3.exe) and put it in the data/portal_mammals directory. 
+1. Mac OS X and Linux come pre-installed with sqlite3. For Windows, download the [sqlite program](http://files.software-carpentry.org/sqlite3.exe) and put it in the data directory. 
 
 \[ Optional steps 2 & 3 for using the Firefox plugin rather than sqlite from the shell \]
 
@@ -94,6 +94,13 @@ When finished, return to the default (list) mode:
      .mode list
      
 ***EXERCISE: Import the plots and species tables***
+
+You can open an existing sqlite database (usually a file with extension .sqlite) using
+     .open mammals.sqlite
+
+or, from the bash prompt:
+
+    sqlite3 mammals.sqlite
 
 Starting and importing with Firefox
 ------
